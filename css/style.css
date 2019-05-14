@@ -32,3 +32,9 @@
     margin-right: -700px;
   }
 }
+
+.main {
+  background-image: url("/assets/images/header-img.jpg");
+  background-position: top center;
+  background-repeat: repeat-x;
+}
