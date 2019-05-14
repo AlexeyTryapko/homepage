@@ -7,4 +7,4 @@ setTimeout(() => {
   setTimeout(() => {
     overlay.style.display = "none";
   }, 500);
-}, 2000);
+}, 3500);
