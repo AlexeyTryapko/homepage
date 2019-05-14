@@ -1,9 +1,9 @@
 .portrait {
-  transform: scale(0.6);
+  transform: scale(0.7);
 }
 
 .preload-overlay {
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: flex-end;
   align-items: center;
