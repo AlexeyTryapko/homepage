@@ -1,12 +1,13 @@
 .portrait {
-  transform: scale(0.7);
+  transform: scale(0.6);
 }
 
 .preload-overlay {
   position: absolute;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  overflow: hidden;
   top: 0;
   left: 0;
   width: 100%;
@@ -16,19 +17,18 @@
   transition: opacity .5s;
 }
 
-.spin {
-  animation-name: spin;
-  animation-duration: 5000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+/* Styles for walking trump */
+.preload-content {
+  animation: rightThenLeft 4s linear;
+  margin-right: 10000px;
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
+@keyframes rightThenLeft {
+  0% {
+    margin-right: 100%;
   }
 
-  to {
-    transform: rotate(360deg);
+  100% {
+    margin-right: -700px;
   }
 }
