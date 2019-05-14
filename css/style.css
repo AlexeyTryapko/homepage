@@ -1,9 +1,9 @@
 .portrait {
-  transform: scale(0.6);
+  transform: scale(0.7);
 }
 
 .preload-overlay {
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -31,4 +31,19 @@
   100% {
     margin-right: -700px;
   }
+}
+
+.main {
+  background-image: url("/assets/images/header-img.jpg");
+  background-position: top center;
+  background-repeat: repeat-x;
+}
+
+.art-image {
+  height: 75%;
+  width: 75%;
+}
+
+.art-gif {
+  width: 90%;
 }
